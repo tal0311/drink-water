@@ -2,7 +2,7 @@ const smallCups = document.querySelectorAll('.cup-small')
 const liters = document.querySelector('#liters')
 const precentage = document.querySelector('#precentage')
 const remained = document.querySelector('#remaind')
-console.log(precentage)
+console.log('WELCOME USER!')
 
 smallCups.forEach((cup, index) => {
   cup.addEventListener('click', () => highlightCups(index))
